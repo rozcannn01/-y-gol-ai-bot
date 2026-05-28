@@ -1,12 +1,7 @@
-import requests
-import time
+import os
 
-# =========================
-# TELEGRAM AYARLARI
-# =========================
-
-BOT_TOKEN = "8910671972:AAELwXlRHp_Y6uBVKCwn09L8qewNabwTMRo"
-CHAT_ID = "8325310989"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 # Aynı maç tekrar gönderilmesin
 gonderilen = set()
