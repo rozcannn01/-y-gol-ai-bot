@@ -1,11 +1,10 @@
 import requests
 import time
-
+import os
 # =========================
 # TELEGRAM AYARLARI
 # =========================
 
-import os
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
